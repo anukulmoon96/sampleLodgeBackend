@@ -1,0 +1,55 @@
+{
+  "name": "seedworksbackend",
+  "version": "1.0.0",
+  "description": "This is seedWorks Backend Repo in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/assertAI/seedWorksBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/assertAI/seedWorksBackend/issues"
+  },
+  "homepage": "https://github.com/assertAI/seedWorksBackend#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1288.0",
+    "axios": "^1.2.2",
+    "base64-to-image": "^1.0.2",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "cryptr": "^6.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.17.3",
+    "google-auth-library": "^8.8.0",
+    "helmet": "^6.0.1",
+    "image-to-base64": "^2.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.1",
+    "morgan": "^1.10.0",
+    "multer": "1.4.3",
+    "mysql": "^2.18.1",
+    "nocache": "^3.0.4",
+    "node-cron": "^3.0.2",
+    "node-csv": "^0.1.2",
+    "node-fetch": "^2.6.8",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "otp-generator": "^4.0.0",
+    "sync-mysql": "^3.0.1",
+    "validator": "^13.9.0",
+    "xlsx": "^0.18.5"
+  }
+}
